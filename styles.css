@@ -1,0 +1,133 @@
+*{
+    margin: 10px;
+    padding: 0px;
+    font-family: 'roboto' , 'Poppins';
+    
+}
+.container{
+    width: 100%;
+    height: 100vh; /*1vh= 19.2px */
+    background-color: white;
+    position: relative;
+}
+.navbar{
+    display: flex; /*side by side */
+    justify-content: space-between; /*to create space between side*/
+    width: 100%;
+    margin-left: 10px;
+    align-items: right;
+   background-color: black;
+}
+.nav-link{
+    text-decoration: none;
+    align-items: left;
+    color: rgb(12, 12, 12);
+    font-weight: bold;
+}
+/*tag:pseudo-class{property value}*/
+.nav-link:hover{
+    color: rgb(13, 92, 9);
+}.checked {
+  color: orange;
+}
+
+.logo{
+    margin-top: 0px;
+}
+h1{
+    margin-left: 500px;
+    font-weight: bolder;
+    font-size: xx-large;
+}
+span{
+    color: rgb(69, 5, 10);
+}
+.imgtop{
+    width: 250px;
+}
+.place{
+    width: 550px;
+    height: 500px;
+    padding: 10px;
+    border-radius: 10px;
+    float: left;
+    margin: 30px;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2), 0 6px 28px 0 rgba(0, 0, 0,0.19);
+}
+.carousel{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+.about{
+    display: grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 8rem;
+    margin-top: 2rem;
+    float: left;
+
+}
+.Services{
+    display: grid;
+    float: right;
+    margin-right: 450px;
+    margin-top: -280px;
+};
+.card-title{
+   font-family: cursive;
+}
+.links{
+    margin-top: 100px;
+    font-weight: bolder;
+    margin-left: 150px;
+}
+.icon-set{
+    display: flex;
+  margin-left: 30px;
+    margin-top: 3%;
+}
+.icon{
+    width: 50px;
+    height: 50px;
+   /*  border: 1px solid black; */
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 10px;
+}
+.icon i{
+    font-size: 30px;
+    color: black;
+}
+.icon:hover{
+    background-image: linear-gradient(to bottom right, rgb(24, 17, 123) , rgb(62, 3, 40));
+}
+.icon:hover i{
+    color: white;
+    animation: shake 0.75s;
+}
+@keyframes shake{
+    10%{
+        transform: rotate(15deg);
+    }
+    20%{
+        transform: rotate(-15deg);
+    }
+    30%{
+        transform: rotate(15deg);
+    }
+    40%{
+        transform: rotate(-15deg);
+    }
+}
+.login{
+    margin-top: -400px;
+    margin-left: 500px;
+}
+.checked {
+    color: orange;
+  }
+.star{
+    width: 250px;
+    margin-top: 5px;
+}
